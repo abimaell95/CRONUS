@@ -39,8 +39,8 @@ jobs:
       - name: 'Runing test'
         working-directory: ./backend
         env: 
-          MYSQL_USER: ${{ secrets.MYSQL_USER }
-          MYSQL_PASS: ${{ secrets.MYSQL_PASS }
+          MYSQL_USER: ${{ secrets.MYSQL_USER }}
+          MYSQL_PASS: ${{ secrets.MYSQL_PASS }}
         run: |
           python manage.py makemigrations
           python manage.py test core/task/

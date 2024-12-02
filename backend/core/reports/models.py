@@ -1,7 +1,6 @@
 from django.db import models
 
 
-# JOIN TABLES MODELS
 class ProductivityReportModel(models.Model):
     invoice_num = models.CharField(primary_key=True, max_length=20)
     range = models.CharField(max_length=10)

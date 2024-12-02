@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import { ReportTable, ReportHeader } from '../components/Reports';
+import Header from '../components/Header';
 
 function Reports() {
   const [state, setState] = useState({
@@ -22,6 +23,7 @@ function Reports() {
 
   return (
     <div className="">
+      <Header />
       <ReportHeader
         setStartDate={setStartDate}
         setEndDate={setEndDate}

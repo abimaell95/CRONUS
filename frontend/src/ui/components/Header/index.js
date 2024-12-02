@@ -12,7 +12,7 @@ const sideBarPages = [
     name: 'Agenda', href: '/tasks', icon: CalendarIcon, current: true,
   },
   {
-    name: 'Reportes', href: '#', icon: DocumentReportIcon, current: false,
+    name: 'Reportes', href: '/reports', icon: DocumentReportIcon, current: false,
   },
   {
     name: 'Administrador', href: '/dev/admin', icon: DatabaseIcon, current: false,
